@@ -1,10 +1,6 @@
-v0.0.9 jQuery baigoValidator Plugin 表单验证插件
+v1.0.0 jQuery baigoValidator for Bootstrap Plugin 表单验证插件
 (c) 2012 baigo - http://www.baigo.net/jQueryPlugins/baigoValidator.php
 License: http://www.opensource.org/licenses/mit-license.php
-
-与 baigoValidator 的区别
-baigoValidator for Bootstrap 核心文件与 baigoValidator 基本相同，使用方法大同小异，主要区别是在显示信息有差别，baigoValidator for Bootstrap 直接调用 Bootstrap 的表单验证样式。
-详细请参考 Bootstrap 中文网站关于表单验证样式的信息 http://v3.bootcss.com/css/#forms-control-validation
 
 1 文件
 	1.1 baigoValidator.js 验证插件
@@ -104,6 +100,8 @@ baigoValidator for Bootstrap 核心文件与 baigoValidator 基本相同，使�
 				int：整数
 				digit：数字（可带小数点）
 			validator.type 为 checkbox radio 和 select 时可忽略
+
+		3.2.3 group：表单组 ID
 
 	3.3 length：规定长度或大小，0 为无限制
 		validator.type 为 str 时：
